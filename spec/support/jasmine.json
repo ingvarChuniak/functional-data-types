@@ -1,0 +1,5 @@
+{
+  "spec": "lib",
+  "spec_files": ["**/spec.js"],
+  "random": true
+}

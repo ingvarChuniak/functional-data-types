@@ -1,0 +1,27 @@
+{
+  "name": "functional-data-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine --config=spec/support/jasmine.json",
+    "test:w": "nodemon --exec \"npm test\"",
+    "prettify": "prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ingvarChuniak/functional-data-types.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ingvarChuniak/functional-data-types/issues"
+  },
+  "homepage": "https://github.com/ingvarChuniak/functional-data-types#readme",
+  "devDependencies": {
+    "jasmine": "^4.5.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.3"
+  }
+}
